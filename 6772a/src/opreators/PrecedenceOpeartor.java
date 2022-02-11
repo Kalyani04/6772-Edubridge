@@ -1,4 +1,4 @@
-package OopsConcept;
+package opreators;
 
 public class PrecedenceOpeartor {
 
