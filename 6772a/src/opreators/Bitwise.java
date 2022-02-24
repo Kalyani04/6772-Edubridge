@@ -6,11 +6,11 @@ public class Bitwise {
 	{
 		int a = 4;
 		int b = 6;
-		
-		System.out.println("a&b is "+(a & b));
-		System.out.println("a|b is "+(a | b));
-		System.out.println("a^b is "+(a ^ b));
-		System.out.println("~a is "+~a);
+
+		System.out.println("a&b is " + (a & b));
+		System.out.println("a|b is " + (a | b));
+		System.out.println("a^b is " + (a ^ b));
+		System.out.println("~a is " + ~a);
 	}
 
 }
