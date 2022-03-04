@@ -1,3 +1,4 @@
+
 package string;
 
 public class AssiQNo1 {
@@ -11,27 +12,27 @@ public static void main(String[] args)
         System.out.println("String 2: " + str2); 
        
         int result = str1.compareToIgnoreCase(str2);
-        System.out.println("Result: " +result);
+//        System.out.println("Result: " +result);
+    
+
+
+        if (result < 0)
+        {
+            System.out.println("\"" + str1 + "\"" +
+                " is less than " +
+                "\"" + str2 + "\"");
+        }
+        else if (result == 0)
+        {
+            System.out.println("\"" + str1 + "\"" +
+                " is equal to " +
+                "\"" + str2 + "\"");
+        }
+        else
+        {
+            System.out.println("\"" + str1 + "\"" +
+                " is greater than " +
+                "\"" + str2 + "\"");
+        }
     }
 }
-
-//        if (result < 0)
-//        {
-//            System.out.println("\"" + str1 + "\"" +
-//                " is less than " +
-//                "\"" + str2 + "\"");
-//        }
-//        else if (result == 0)
-//        {
-//            System.out.println("\"" + str1 + "\"" +
-//                " is equal to " +
-//                "\"" + str2 + "\"");
-//        }
-//        else
-//        {
-//            System.out.println("\"" + str1 + "\"" +
-//                " is greater than " +
-//                "\"" + str2 + "\"");
-//        }
-//    }
-//}

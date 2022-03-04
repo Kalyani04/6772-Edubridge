@@ -9,7 +9,9 @@ public class LinkedHashSetEx
 		lhs.add(new String("Pineapple"));
 		lhs.add(new String("Apple"));
 		lhs.add(new String("Custurd Apple"));
+		
 		Object array[] = lhs.toArray( );
+		
 		for(int x=0; x<3; x++)
 		{
 			System.out.println(array[x]);
