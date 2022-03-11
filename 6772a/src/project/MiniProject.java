@@ -82,11 +82,11 @@ void deposit_money()
 void withdraw_money()
 {
 	Scanner wit = new Scanner(System.in);  // Create a Scanner object
-	System.out.println( "Enter how much money you want to withdraw: ");
+	System.out.println( "Enter how much money you want to withdraw :  ");
     int amount = wit.nextInt();
 
     balance  -= amount;
-    System.out.println( "\n Available Balance: "+balance); 
+    System.out.println( "\n Available Balance: " +balance); 
 }
 
 void acc_no()
